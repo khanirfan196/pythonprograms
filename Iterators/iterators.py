@@ -23,7 +23,6 @@ print(next(my_iterator))
 print(next(my_iterator))
 print()
 
-# Activity: Video# 90
 
 # Create a list of items (you may use either strings or numbers in the list),
 # then create an iterator using the iter() function.
@@ -32,7 +31,7 @@ print()
 # Hint: Use the len() function to get the length of the string.
 print("Output for the Activity")
 
-my_list = ["irfan", "rahman", "farhan", "uneera", "sidra", "nafeesa"]
+my_list = ["irfan", "rahman", "farhan", "michael", "peter", "john"]
 
 new_iterator = iter(my_list)
 
