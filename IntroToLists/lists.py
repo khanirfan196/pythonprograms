@@ -3,7 +3,7 @@
 ipAddress = input("Please enter an IP address: ")
 print(ipAddress.count("."))
 
-parrot_list = ["non pinin'", "no more", "a stiff", "bereft of live"]
+parrot_list = ["non pinin", "no more", "a stiff", "bereft of live"]
 for state in parrot_list:
     print("This parrat is " + state)
 
