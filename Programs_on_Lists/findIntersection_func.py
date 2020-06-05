@@ -4,23 +4,22 @@
 
 def FindIntersection(strArr1, strArr2):
     # Code goes here
-    uni = []
+    inter = []
     for i in range(0, len(strArr1)):
         for j in range(0, len(strArr2)):
              if strArr1[i] == strArr2[j]:
-                t = None
-                t = strArr1[i]
-                if t in uni:
+                if strArr1[i] in inter:
                     pass
                 else:
-                    uni.append(t)
-    if len(uni) == 0:
+                    inter.append(strArr1[i])
+    if len(inter) == 0:
         return "No value matches"
     else:
-        return uni
+        inter.sort()
+        return inter
 
-list1 = [1, 3, 4, 5, 6]
-list2 = [7, 8, 9]
+list1 = [1, 3, 4, 5, 6, 7, 8]
+list2 = [1, 7, 8, 9]
 
 # Calling the function
 c = FindIntersection(list1, list2)
